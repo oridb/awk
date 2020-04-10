@@ -40,7 +40,7 @@ YACC = bison -d
 #YACC = yacc -d
 #		-S uses sprintf in yacc parser instead of sprint
 
-OFILES = b.o main.o parse.o proctab.o tran.o lib.o run.o lex.o regexec.o
+OFILES = b.o main.o parse.o proctab.o tran.o lib.o run.o lex.o regexec.o regcomp.o
 
 SOURCE = awk.h ytab.c ytab.h proto.h awkgram.y lex.c b.c main.c \
 	maketab.c parse.c lib.c run.c tran.c proctab.c regexec.c \
